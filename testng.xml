@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="utilities.Listeners"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/hsnny/workspace/ProjectAutomationPractice">
+        <classes>
+            <class name="automationExerciseTests.TC_001_RegistrationTest">
+                <methods>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_002_LoginUserWithCorrectValuesTest">
+                <methods>
+                    <include name="registrationWithCorrectValuesTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_003_LoginUserWithIncorrectValuesTest">
+                <methods>
+                    <include name="registrationWithIncorrectValuesTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_004_LoginUserAndLogoutTest">
+                <methods>
+                    <include name="loginUserAndLogoutTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_005_LoginUserWithExistingValuesTest">
+                <methods>
+                    <include name="registrationWithExistingValuesTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_006_ContactUsFormTest">
+                <methods>
+                    <include name="contactUsFormTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_007_VerifyCasesPageTest">
+                <methods>
+                    <include name="verifyCasesPageTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_008_VerifyProductsAndDetailPageTest">
+                <methods>
+                    <include name="verifyProductsAndDetailPageTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_009_SearchProductTest">
+                <methods>
+                    <include name="searchButtonTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_010_VerifySubscriptionTest">
+                <methods>
+                    <include name="verifySubscriptionTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_011_VerifySubscriptionInCartPageTest">
+                <methods>
+                    <include name="verifySubscriptionInCartPageTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_012_AddProductsInCartTest">
+                <methods>
+                    <include name="addProductsInCartTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_013_VerifyProductQuantityInCartTest">
+                <methods>
+                    <include name="verifyProductQuantityInCartTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_014_PlaceOrder_RegisterWhileCheckoutTest">
+                <methods>
+                    <include name="placeOrderRegisterWhileCheckoutTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_015_PlaceOrder_RegisterBeforeCheckoutTest">
+                <methods>
+                    <include name="placeOrderRegisterBeforeCheckoutTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_016_PlaceOrder_LoginBeforeCheckoutTest">
+                <methods>
+                    <include name="placeOrderLoginBeforeCheckoutTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_017_RemoveProductsFromCartTest">
+                <methods>
+                    <include name="removeProductsFromCartTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_018_ViewCategoryProductsTest">
+                <methods>
+                    <include name="viewCategoryProductsTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_019_ViewAndCartBrandProductsTest">
+                <methods>
+                    <include name="viewAndCartBrandProductsTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_020_SearchProductsAndVerifyCartTest">
+                <methods>
+                    <include name="viewAndCartBrandProductsTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_021_AddReviewOnProductTest">
+                <methods>
+                    <include name="addReviewOnProductTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_022_AddToCartFromRecommendedTest">
+                <methods>
+                    <include name="addToCartFromRecommendedTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_023_VerifyAddressDetailsTest">
+                <methods>
+                    <include name="verifyAddressDetailsTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_024_DownloadInvoiceAfterPurchaseOrderTest">
+                <methods>
+                    <include name="downloadInvoiceAfterPurchaseOrderTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_025_VerifyScrollUpButtonTest">
+                <methods>
+                    <include name="verifyScrollUpButtonTest"/>
+                </methods>
+            </class>
+            <class name="automationExerciseTests.TC_026_VerifyScrollUpWithoutArrowButtonTest">
+                <methods>
+                    <include name="verifyScrollUpWithoutArrowButtonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
